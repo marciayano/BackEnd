@@ -8,5 +8,7 @@ package Aula1Mesa;
 //Devemos criar um teste para os círculos e um teste para os quadrados.
 //Em seguida, confirme se as duas fórmulas foram calculadas corretamente.
 
-public class Figura {
+public abstract class Figura {
+
+    public abstract double calcularPerimetro();
 }
